@@ -12,7 +12,7 @@ import java.util.Map;
 @Service
 public class JWTService {
 
-    private static final String secretKey = "adxahhwhjwjdhs";
+    private static final String secretKey = "adxahhwhjwjdhsadxahhwhjwjdhsmine";
 
     public SecretKey getSecretKey(){
         return Keys.hmacShaKeyFor(secretKey.getBytes(StandardCharsets.UTF_8));
